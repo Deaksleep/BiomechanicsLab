@@ -112,7 +112,7 @@ html {
 
 .research-grid {
   display: grid;
-  gap: 1.35rem;
+  gap: 1.6rem;
 }
 
 .research-card {
@@ -120,42 +120,121 @@ html {
   border: 1px solid var(--lab-line);
   border-radius: 8px;
   display: grid;
-  grid-template-columns: minmax(260px, 0.38fr) minmax(0, 0.62fr);
+  grid-template-columns: minmax(620px, 0.64fr) minmax(300px, 0.36fr);
   overflow: hidden;
 }
 
-.diagram-placeholder {
-  align-items: center;
+.paper-carousel {
   background:
     linear-gradient(135deg, rgba(15, 118, 110, 0.14), rgba(182, 109, 53, 0.1)),
     repeating-linear-gradient(0deg, rgba(25, 48, 51, 0.08), rgba(25, 48, 51, 0.08) 1px, transparent 1px, transparent 22px),
     repeating-linear-gradient(90deg, rgba(25, 48, 51, 0.08), rgba(25, 48, 51, 0.08) 1px, transparent 1px, transparent 22px);
+  display: grid;
+  grid-template-rows: auto auto;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.paper-carousel-track {
   display: flex;
-  flex-direction: column;
+  transition: transform 220ms ease;
+  will-change: transform;
+}
+
+.paper-slide {
+  display: grid;
+  flex: 0 0 100%;
+  gap: 0.9rem;
+  grid-template-rows: auto auto;
+  margin: 0;
+}
+
+.paper-slide img,
+.paper-figure-placeholder {
+  aspect-ratio: 4 / 3;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(25, 48, 51, 0.12);
+  border-radius: 8px;
+  height: clamp(320px, 30vw, 440px);
+  width: 100%;
+}
+
+.paper-slide img {
+  display: block;
+  object-fit: contain;
+  padding: 0.75rem;
+}
+
+.paper-figure-placeholder {
+  align-items: center;
+  color: var(--lab-accent-dark);
+  display: flex;
+  font-weight: 700;
   justify-content: center;
-  min-height: 260px;
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: center;
 }
 
-.diagram-placeholder span {
-  background: rgba(255, 255, 255, 0.82);
-  border: 1px solid rgba(25, 48, 51, 0.12);
+.paper-slide figcaption {
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid rgba(25, 48, 51, 0.08);
+  border-radius: 8px;
+  color: var(--lab-muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.45;
+  margin: 0;
+  min-height: 5.9rem;
+  padding: 0.75rem;
+}
+
+.paper-carousel-controls {
+  align-items: center;
+  display: flex;
+  gap: 0.7rem;
+  justify-content: center;
+  margin-top: 0.85rem;
+}
+
+.paper-carousel-controls button {
+  align-items: center;
+  background: #fff;
+  border: 1px solid rgba(25, 48, 51, 0.14);
   border-radius: 999px;
   color: var(--lab-accent-dark);
   display: inline-flex;
-  font-weight: 700;
-  padding: 0.45rem 0.85rem;
+  font-weight: 800;
+  height: 2rem;
+  justify-content: center;
+  line-height: 1;
+  padding: 0;
+  width: 2rem;
 }
 
-.diagram-placeholder small {
-  color: var(--lab-muted);
-  display: block;
-  margin-top: 0.8rem;
+.paper-carousel-controls button:hover {
+  border-color: rgba(15, 118, 110, 0.45);
+  color: var(--lab-accent);
+}
+
+.paper-carousel-dots {
+  display: inline-flex;
+  gap: 0.35rem;
+}
+
+.paper-carousel-dots button {
+  background: rgba(25, 48, 51, 0.2);
+  border: 0;
+  height: 0.55rem;
+  width: 0.55rem;
+}
+
+.paper-carousel-dots button.active {
+  background: var(--lab-accent);
 }
 
 .research-card-body {
-  padding: 1.6rem;
+  align-self: center;
+  padding: 2rem;
 }
 
 .research-index {
@@ -526,7 +605,7 @@ html {
     grid-template-columns: 1fr;
   }
 
-  .diagram-placeholder {
+  .paper-carousel {
     min-height: 210px;
   }
 
