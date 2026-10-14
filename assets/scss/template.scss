@@ -281,6 +281,195 @@ html {
   text-decoration: none;
 }
 
+.lab-home-hero {
+  background:
+    linear-gradient(135deg, rgba(15, 61, 70, 0.96), rgba(15, 118, 110, 0.88)),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: auto, 38px 38px, 38px 38px;
+  border-radius: 8px;
+  color: #fff;
+  margin: 2rem 0 0;
+  padding: clamp(3.5rem, 8vw, 6rem);
+}
+
+.lab-home-hero .lab-eyebrow,
+.lab-home-hero h1 {
+  color: #fff;
+}
+
+.lab-home-hero h1 {
+  font-size: clamp(2.4rem, 6vw, 4.8rem);
+  letter-spacing: 0;
+  line-height: 1.04;
+  margin: 0 0 1.2rem;
+  max-width: 980px;
+}
+
+.lab-home-hero p {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 1.16rem;
+  line-height: 1.75;
+  max-width: 760px;
+}
+
+.lab-home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.8rem;
+}
+
+.lab-button.primary {
+  background: #fff;
+  color: var(--lab-accent-dark);
+}
+
+.lab-button.secondary {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  color: #fff;
+}
+
+.lab-section.compact {
+  padding: 3rem 0;
+}
+
+.home-link-grid,
+.home-research-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.home-link-card,
+.home-research-card {
+  border: 1px solid var(--lab-line);
+  border-radius: 8px;
+  color: var(--lab-ink);
+  display: block;
+  min-height: 220px;
+  padding: 1.4rem;
+  text-decoration: none;
+  transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+}
+
+.home-research-card {
+  background:
+    linear-gradient(180deg, rgba(15, 118, 110, 0.06), rgba(255, 255, 255, 0) 42%),
+    #fff;
+}
+
+.home-link-card:hover,
+.home-research-card:hover {
+  border-color: rgba(15, 118, 110, 0.45);
+  box-shadow: 0 14px 35px rgba(25, 48, 51, 0.09);
+  color: var(--lab-ink);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.home-link-card span,
+.home-research-card span {
+  color: var(--lab-warm);
+  font-weight: 800;
+}
+
+.home-link-card h3,
+.home-research-card h3 {
+  color: var(--lab-ink);
+  font-size: 1.25rem;
+  margin: 0.85rem 0 0.65rem;
+}
+
+.home-link-card p,
+.home-research-card p {
+  color: var(--lab-muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.lab-page-intro {
+  border-bottom: 1px solid var(--lab-line);
+  margin-bottom: 2.5rem;
+  padding: 2.5rem 0 2rem;
+}
+
+.lab-page-intro h1 {
+  color: var(--lab-ink);
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  letter-spacing: 0;
+  margin: 0 0 0.9rem;
+}
+
+.lab-page-intro p {
+  color: var(--lab-muted);
+  font-size: 1.06rem;
+  line-height: 1.8;
+  max-width: 860px;
+}
+
+.gallery-grid.wide {
+  margin-bottom: 4rem;
+}
+
+.publication-search-panel {
+  background: var(--lab-surface);
+  border: 1px solid var(--lab-line);
+  border-radius: 8px;
+  display: grid;
+  gap: 0.75rem;
+  margin: 0 0 2rem;
+  padding: 1rem;
+}
+
+.publication-search-panel label {
+  color: var(--lab-ink);
+  font-weight: 800;
+  margin: 0;
+}
+
+.publication-search-panel input {
+  background: #fff;
+  border: 1px solid var(--lab-line);
+  border-radius: 6px;
+  color: var(--lab-ink);
+  font-size: 1rem;
+  min-height: 46px;
+  padding: 0.65rem 0.8rem;
+  width: 100%;
+}
+
+.publication-search-panel input:focus {
+  border-color: var(--lab-accent);
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.14);
+  outline: none;
+}
+
+.publication-search-panel span {
+  color: var(--lab-muted);
+  font-size: 0.92rem;
+}
+
+.publication-year-group {
+  margin: 2.5rem 0;
+}
+
+.publication-year-group h2 {
+  color: var(--lab-accent-dark);
+  font-size: 1.65rem;
+  margin-bottom: 1rem;
+}
+
+.publication-list.by-year {
+  counter-reset: pubs;
+}
+
+.publication-list.by-year li[hidden],
+.publication-year-group[hidden] {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .lab-section-heading,
   .research-card {
@@ -289,6 +478,11 @@ html {
 
   .diagram-placeholder {
     min-height: 210px;
+  }
+
+  .home-link-grid,
+  .home-research-grid {
+    grid-template-columns: 1fr;
   }
 }
 
