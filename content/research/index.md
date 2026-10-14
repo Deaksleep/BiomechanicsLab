@@ -25,15 +25,15 @@ share: false
     <div class="paper-carousel" data-paper-carousel>
       <div class="paper-carousel-track">
         <figure class="paper-slide">
-          <img src="/media/research/brain-biomechanics/1.jpg" alt="Framework figure for multiscale measurement of brain tissue and cell biomechanics">
+          <img src="{{< asset-url "media/research/brain-biomechanics/1.jpg" >}}" alt="Framework figure for multiscale measurement of brain tissue and cell biomechanics">
           <figcaption>Multiscale measurement of brain tissue and cell biomechanics using a mouse model</figcaption>
         </figure>
         <figure class="paper-slide">
-          <img src="/media/research/brain-biomechanics/2.jpg" alt="Framework figure for transcranial vibration stimulation at 40 Hz">
+          <img src="{{< asset-url "media/research/brain-biomechanics/2.jpg" >}}" alt="Framework figure for transcranial vibration stimulation at 40 Hz">
           <figcaption>Transcranial vibration stimulation at 40 Hz induced neural activity and promoted the coupling of global brain activity and cerebrospinal fluid flow</figcaption>
         </figure>
         <figure class="paper-slide">
-          <img src="/media/research/brain-biomechanics/3.jpg" alt="Framework figure for vibration modulated regional cerebral blood flow with MRI">
+          <img src="{{< asset-url "media/research/brain-biomechanics/3.jpg" >}}" alt="Framework figure for vibration modulated regional cerebral blood flow with MRI">
           <figcaption>Assessment of vibration modulated regional cerebral blood flow with MRI</figcaption>
         </figure>
       </div>

@@ -18,11 +18,11 @@ share: false
 
 <div class="gallery-grid wide">
   <figure>
-    <img src="/media/group-photo-1.jpg" alt="Biomechanics Laboratory group photo 1">
+    <img src="{{< asset-url "media/group-photo-1.jpg" >}}" alt="Biomechanics Laboratory group photo 1">
     <figcaption>Biomechanics Laboratory group photo</figcaption>
   </figure>
   <figure>
-    <img src="/media/group-photo-2.jpg" alt="Biomechanics Laboratory group photo 2">
+    <img src="{{< asset-url "media/group-photo-2.jpg" >}}" alt="Biomechanics Laboratory group photo 2">
     <figcaption>Team gathering</figcaption>
   </figure>
 </div>
