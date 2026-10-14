@@ -1,7 +1,14 @@
 ---
 title: Research
 date: 2026-10-14
+share: false
 ---
+
+<style>
+  .article > .article-container.pt-3 {
+    display: none;
+  }
+</style>
 
 <section class="lab-page-intro">
   <div class="lab-eyebrow">Research</div>

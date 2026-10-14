@@ -50,7 +50,8 @@ sections:
           <div>
             <div class="lab-eyebrow">Contact</div>
             <h2>Biomechanics Laboratory</h2>
-            <p>Contact details, address, and institutional links can be added here when they are ready.</p>
+            <p>Email: <a href="mailto:fengyuan@sjtu.edu.cn">fengyuan@sjtu.edu.cn</a></p>
+            <p>Office: Room N219, Translational Medicine Building, Minhang Campus, Shanghai Jiao Tong University, Shanghai, China</p>
           </div>
         </section>
     design:

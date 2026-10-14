@@ -4,6 +4,12 @@ date: 2026-10-14
 share: false
 ---
 
+<style>
+  .article > .article-container.pt-3 {
+    display: none;
+  }
+</style>
+
 <section class="lab-page-intro">
   <div class="lab-eyebrow">Team</div>
   <h1>Laboratory Moments</h1>

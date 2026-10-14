@@ -1,0 +1,40 @@
+# Disable social sharing buttons site-wide.
+[[buttons]]
+  id = "twitter"
+  enable = false
+
+[[buttons]]
+  id = "facebook"
+  enable = false
+
+[[buttons]]
+  id = "email"
+  enable = false
+
+[[buttons]]
+  id = "linkedin"
+  enable = false
+
+[[buttons]]
+  id = "whatsapp"
+  enable = false
+
+[[buttons]]
+  id = "weibo"
+  enable = false
+
+[[buttons]]
+  id = "reddit"
+  enable = false
+
+[[buttons]]
+  id = "pinterest"
+  enable = false
+
+[[buttons]]
+  id = "xing"
+  enable = false
+
+[[buttons]]
+  id = "tumblr"
+  enable = false
