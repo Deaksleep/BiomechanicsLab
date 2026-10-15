@@ -54,23 +54,19 @@ share: false
     <div class="paper-carousel" data-paper-carousel>
       <div class="paper-carousel-track">
         <figure class="paper-slide">
-          <div class="paper-figure-placeholder">Framework Figure</div>
+          <img src="{{< asset-url "media/research/mr-elastography/1.png" >}}" alt="Framework for mapping stress-induced anisotropy with reverberant shear waves">
           <figcaption>Noninvasive 3D mapping of tissue stress using reverberant shear wave</figcaption>
         </figure>
         <figure class="paper-slide">
-          <div class="paper-figure-placeholder">Framework Figure</div>
+          <img src="{{< asset-url "media/research/mr-elastography/2.jpg" >}}" alt="Traveling wave expansion framework for anisotropic viscoelasticity measurement">
           <figcaption>Measurement of biomechanical properties of transversely isotropic biological tissue using traveling wave expansion</figcaption>
         </figure>
         <figure class="paper-slide">
-          <div class="paper-figure-placeholder">Framework Figure</div>
-          <figcaption>A 3D fast MR elastography sequence with interleaved multislab acquisition and Hadamard encoding</figcaption>
-        </figure>
-        <figure class="paper-slide">
-          <div class="paper-figure-placeholder">Framework Figure</div>
+          <img src="{{< asset-url "media/research/mr-elastography/4.gif" >}}" alt="MRI-compatible actuator and experimental setup for indirect shear wave excitation">
           <figcaption>Indirect Shear Wave Excitation for Brain Magnetic Resonance Elastography With Minimal Cerebral Blood Flow Alteration</figcaption>
         </figure>
         <figure class="paper-slide">
-          <div class="paper-figure-placeholder">Framework Figure</div>
+          <img src="{{< asset-url "media/research/mr-elastography/5.gif" >}}" alt="TWENN neural network workflow for MR elastography modulus estimation">
           <figcaption>MR Elastography With Optimization-Based Phase Unwrapping and Traveling Wave Expansion-Based Neural Network (TWENN)</figcaption>
         </figure>
       </div>
@@ -91,15 +87,7 @@ share: false
     <div class="paper-carousel" data-paper-carousel>
       <div class="paper-carousel-track">
         <figure class="paper-slide">
-          <div class="paper-figure-placeholder">Framework Figure</div>
-          <figcaption>Magnetically Guided Microrobots for Targeted Drug Delivery</figcaption>
-        </figure>
-        <figure class="paper-slide">
-          <div class="paper-figure-placeholder">Framework Figure</div>
-          <figcaption>Hybrid pneumatic-hydraulic actuation for MRI-guided robotic stereotactic neurointervention</figcaption>
-        </figure>
-        <figure class="paper-slide">
-          <div class="paper-figure-placeholder">Framework Figure</div>
+          <img src="{{< asset-url "media/research/mri-guided-robot/deep-unrolled-network.jpg" >}}" alt="Deep unrolled neural network workflow for real-time radial MRI reconstruction">
           <figcaption>A deep unrolled neural network for real-time MRI-guided brain intervention</figcaption>
         </figure>
       </div>
@@ -126,6 +114,10 @@ share: false
       const next = carousel.querySelector('.paper-carousel-next');
       const dots = carousel.querySelector('.paper-carousel-dots');
       let current = 0;
+
+      if (slides.length <= 1) {
+        carousel.classList.add('is-single-slide');
+      }
 
       slides.forEach(function (_, index) {
         const dot = document.createElement('button');
