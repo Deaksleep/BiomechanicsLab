@@ -13,7 +13,7 @@ share: false
 <section class="lab-page-intro">
   <div class="lab-eyebrow">Team</div>
   <h1>Laboratory Moments</h1>
-  <p>Group photos are collected here so the homepage can stay focused and concise. Additional member profiles, student pages, or alumni sections can be added later when names and roles are ready.</p>
+  
 </section>
 
 <div class="gallery-grid wide">

@@ -16,8 +16,8 @@ share: false
 
 <section class="lab-page-intro">
   <div class="lab-eyebrow">Research</div>
-  <h1>Major Research Directions</h1>
-  <p>Our work connects tissue mechanics, magnetic resonance imaging, computational modeling, and MRI-compatible robotic intervention. Each direction below includes representative papers from the supplied materials. The visual areas are reserved for paper framework figures and graphical abstracts.</p>
+  <h1>Key Research Advances</h1>
+  <p>Our work connects tissue mechanics, magnetic resonance imaging, computational modeling, and MRI-compatible robotic intervention.</p>
 </section>
 
 <div class="research-grid">
