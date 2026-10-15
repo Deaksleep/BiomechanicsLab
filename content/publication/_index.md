@@ -12,7 +12,6 @@ sections:
         <section class="lab-page-intro">
           <div class="lab-eyebrow">Publications</div>
           <h1>Journal Publications</h1>
-          <p>Publications are grouped by year in descending order. Use the search field to filter by author, title, journal, keyword, or year.</p>
         </section>
 
         <section class="publication-search-panel">
