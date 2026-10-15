@@ -28,7 +28,7 @@ sections:
           </div>
           <aside class="professor-card" aria-label="Yuan Feng profile">
             <div class="professor-portrait-wrap">
-              <img class="professor-portrait" src="/media/prof.png" alt="Portrait of Professor Yuan Feng" width="900" height="900">
+              <img class="professor-portrait" src="{{< asset-url "media/prof.png" >}}" alt="Portrait of Professor Yuan Feng" width="900" height="900">
             </div>
             <h2>Yuan Feng</h2>
             <p>Professor</p>
