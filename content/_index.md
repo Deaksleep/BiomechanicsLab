@@ -9,13 +9,42 @@ sections:
       title:
       subtitle:
       text: |
-        <section class="lab-home-hero">
-          <div class="lab-eyebrow">Biomechanics Laboratory</div>
-          <h1>Biomechanics, imaging, and MRI-guided intervention</h1>
-          <p>We develop experimental, computational, and imaging methods to understand the mechanics of living tissues and translate biomechanical insight into MR-guided diagnosis and therapy.</p>
-          <div class="lab-home-actions">
-            <a class="lab-button primary" href="research/">Explore Research</a>
-            <a class="lab-button secondary" href="publication/">View Publications</a>
+        <section class="professor-hero" aria-labelledby="professor-name">
+          <div class="professor-intro">
+            <div class="professor-kicker">Principal Investigator</div>
+            <h1 id="professor-name">Yuan Feng</h1>
+            <p class="professor-title">Professor, School of Biomedical Engineering, Shanghai Jiao Tong University</p>
+            <div class="professor-topics" aria-label="Research directions">
+              <span>Brain Biomechanics</span>
+              <span>Mechanobiology</span>
+              <span>Magnetic Resonance Imaging</span>
+            </div>
+            <p class="professor-bio">Dr. Feng has published 46 peer-reviewed journal papers and holds 13 granted invention patents. As principal investigator, he has led 2 General Programs of the National Natural Science Foundation of China (NSFC), 1 NSFC Excellent Young Scientists Fund, and 1 sub-project of the National Key Research and Development Program of China. His main research directions cover brain biomechanics, mechanobiology, and magnetic resonance imaging (MRI).</p>
+            <div class="professor-metrics" aria-label="Academic highlights">
+              <div><strong>46</strong><span>Peer-reviewed papers</span></div>
+              <div><strong>13</strong><span>Granted invention patents</span></div>
+              <div><strong>4</strong><span>Principal investigator projects</span></div>
+            </div>
+          </div>
+          <aside class="professor-card" aria-label="Yuan Feng profile">
+            <div class="professor-portrait-wrap">
+              <img class="professor-portrait" src="/media/prof.png" alt="Portrait of Professor Yuan Feng" width="900" height="900">
+            </div>
+            <h2>Yuan Feng</h2>
+            <p>Professor</p>
+            <p>Shanghai Jiao Tong University</p>
+            <div class="professor-card-rule"></div>
+            <a class="professor-email" href="mailto:fengyuan@sjtu.edu.cn" aria-label="Email Professor Yuan Feng">
+              <span aria-hidden="true">&#9993;</span>
+              fengyuan@sjtu.edu.cn
+            </a>
+          </aside>
+        </section>
+        <section class="professor-award" aria-label="Research leadership">
+          <span class="professor-award-icon" aria-hidden="true">&#9671;</span>
+          <div>
+            <h2>Research leadership</h2>
+            <p>Principal investigator for two NSFC General Programs, one NSFC Excellent Young Scientists Fund, and one National Key Research and Development Program sub-project.</p>
           </div>
         </section>
 
