@@ -18,11 +18,11 @@ share: false
 
 <div class="gallery-grid wide">
   <figure>
-    <img src="{{< asset-url "media/group-photo-1.jpg" >}}" alt="Biomechanics Laboratory group photo 1">
+    <img class="team-photo" src="{{< asset-url "media/group-photo-1.jpg" >}}" alt="Biomechanics Laboratory group photo 1" width="1234" height="522">
     <figcaption>Biomechanics Laboratory group photo</figcaption>
   </figure>
   <figure>
-    <img src="{{< asset-url "media/group-photo-2.jpg" >}}" alt="Biomechanics Laboratory group photo 2">
+    <img class="team-photo" src="{{< asset-url "media/group-photo-2.jpg" >}}" alt="Biomechanics Laboratory group photo 2" width="1274" height="956">
     <figcaption>Team gathering</figcaption>
   </figure>
 </div>

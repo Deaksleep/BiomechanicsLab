@@ -5,10 +5,6 @@ share: false
 ---
 
 <style>
-  .article > .article-container {
-    max-width: min(1480px, calc(100vw - 48px));
-  }
-
   .article > .article-container.pt-3 {
     display: none;
   }
