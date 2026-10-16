@@ -75,7 +75,7 @@ sections:
           </div>
         </section>
 
-        <section class="lab-section lab-contact-band">
+        <section id="contact" class="lab-section lab-contact-band">
           <div>
             <div class="lab-eyebrow">Contact</div>
             <h2>Biomechanics Laboratory</h2>
