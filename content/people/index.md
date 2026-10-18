@@ -18,9 +18,9 @@ share: false
 
 <div class="team-gallery wide">
   <figure>
-    <img class="team-photo" src="{{< asset-url "media/group-photo-1.jpg" >}}" alt="Biomechanics Laboratory group photo 1" width="1234" height="522">
+    <img class="team-photo" src="{{< asset-url "media/group-photo-1.jpg" >}}" alt="Brain Biomechanics, Mechanbiology, and MR imaging Lab group photo 1" width="1234" height="522">
   </figure>
   <figure>
-    <img class="team-photo" src="{{< asset-url "media/group-photo-2.jpg" >}}" alt="Biomechanics Laboratory group photo 2" width="1274" height="956">
+    <img class="team-photo" src="{{< asset-url "media/group-photo-2.jpg" >}}" alt="Brain Biomechanics, Mechanbiology, and MR imaging Lab group photo 2" width="1274" height="956">
   </figure>
 </div>

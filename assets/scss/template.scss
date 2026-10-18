@@ -41,7 +41,7 @@ html {
 }
 
 #navbar-main .navbar-brand {
-  font-size: 1.42rem;
+  font-size: clamp(1rem, 1.35vw, 1.32rem);
   letter-spacing: -0.02em;
 }
 

@@ -6,7 +6,7 @@ share: false
 
 <section class="lab-page-intro">
   <div class="lab-eyebrow">Contact</div>
-  <h1>Contact the Biomechanics Laboratory</h1>
+  <h1>Contact the Brain Biomechanics, Mechanbiology, and MR imaging (BBMM) Lab</h1>
   <p>Please contact the laboratory by email or visit the office at Shanghai Jiao Tong University.</p>
 </section>
 

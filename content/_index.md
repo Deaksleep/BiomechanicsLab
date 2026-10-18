@@ -78,7 +78,7 @@ sections:
         <section id="contact" class="lab-section lab-contact-band">
           <div>
             <div class="lab-eyebrow">Contact</div>
-            <h2>Biomechanics Laboratory</h2>
+            <h2>Brain Biomechanics, Mechanbiology, and MR imaging (BBMM) Lab</h2>
             <p>Email: <a href="mailto:fengyuan@sjtu.edu.cn">fengyuan@sjtu.edu.cn</a></p>
             <p>Office: Room N219, Translational Medicine Building, Minhang Campus, Shanghai Jiao Tong University, Shanghai, China</p>
           </div>

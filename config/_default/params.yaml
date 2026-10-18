@@ -17,8 +17,8 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: 'Biomechanics Laboratory'
-    description: 'Biomechanics Laboratory research group website for brain biomechanics, magnetic resonance elastography, and MRI-guided micro/nano robotics.'
+    org_name: 'Brain Biomechanics, Mechanbiology, and MR imaging (BBMM) Lab'
+    description: 'Official website of the Brain Biomechanics, Mechanbiology, and MR imaging (BBMM) Lab for brain biomechanics, magnetic resonance elastography, and MRI-guided micro/nano robotics.'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Biomechanics Laboratory'
+    notice: '© {year} Brain Biomechanics, Mechanbiology, and MR imaging (BBMM) Lab'
     license:
       enable: false
       allow_derivatives: false
